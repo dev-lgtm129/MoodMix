@@ -23,9 +23,9 @@ To add a new theme:
 That's it! The app will automatically include your new theme in the rotation.
 """
 
-# Theme 1: Dark Warm Espresso (Original default palette)
-THEME_DARK_WARM = {
-    "name": "Dark Warm Espresso",
+# Theme 1: Dark Chocolate
+THEME_DARK_CHOCOLATE = {
+    "name": "Dark Chocolate",
     "bg": "#1e1915",
     "surface": "#26201b",
     "surface_variant": "#342b23",
@@ -39,9 +39,9 @@ THEME_DARK_WARM = {
     "mood_active_bg": "#3a2c20",
 }
 
-# Theme 2: Warm Light Cream (Light mode alternative)
-THEME_LIGHT = {
-    "name": "Warm Light Cream",
+# Theme 2: White Chocolate
+THEME_WHITE_CHOCOLATE = {
+    "name": "White Chocolate",
     "bg": "#F5EFE6",
     "surface": "#E8DFD8",
     "surface_variant": "#D9CDC4",
@@ -55,8 +55,43 @@ THEME_LIGHT = {
     "mood_active_bg": "#D9C5B8",
 }
 
+# Theme 3: Matcha
+THEME_MATCHA = {
+    "name": "Matcha",
+    "bg": "#222222",
+    "surface": "#2a2a2a",
+    "surface_variant": "#333333",
+    "text_primary": "#f0f4f1",
+    "text_muted": "#9ea89f",
+    "accent": "#c2d8c4",
+    "accent_secondary": "#8fae92",
+    "border": "#3a3a3a",
+    "gradient_start": "#2d332e",
+    "gradient_end": "#222222",
+    "mood_active_bg": "#343d35",
+}
+
+# Theme 4: Midnight (AMOLED / OLED High Contrast)
+THEME_MIDNIGHT = {
+    "name": "Midnight",
+    "bg": "#000000",
+    "surface": "#121212",
+    "surface_variant": "#1e1e1e",
+    "text_primary": "#ffffff",
+    "text_muted": "#888888",
+    "accent": "#ffffff",
+    "accent_secondary": "#cccccc",
+    "border": "#2a2a2a",
+    "gradient_start": "#181818",
+    "gradient_end": "#000000",
+    "mood_active_bg": "#242424",
+}
+
 # List of all available themes. The theme toggle button cycles through this list in order.
 THEMES = [
-    THEME_DARK_WARM,
-    THEME_LIGHT,
+    THEME_DARK_CHOCOLATE,
+    THEME_WHITE_CHOCOLATE,
+    THEME_MATCHA,
+    THEME_MIDNIGHT,
 ]
+

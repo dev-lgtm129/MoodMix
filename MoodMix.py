@@ -428,17 +428,11 @@ def main(page: ft.Page):
             for _, row in recs_df.iterrows()
         ]
 
-        # Results header row with Back button and Theme toggle icon button
+        # Results header row with Back button
         results_content = [
             ft.Row([
                 ft.IconButton(ft.Icons.ARROW_BACK, icon_color=current_t["accent"], on_click=lambda _: go_to_inputs()),
                 ft.Text("Your Recommendation", size=20, weight=ft.FontWeight.BOLD, color=current_t["text_primary"], font_family="grotesk", expand=True),
-                ft.IconButton(
-                    icon=ft.Icons.PALETTE_OUTLINED,
-                    icon_color=current_t["accent"],
-                    tooltip="Change theme",
-                    on_click=lambda e: cycle_theme(e),
-                ),
             ]),
             ft.Divider(color=current_t["border"]),
             ft.Container(
