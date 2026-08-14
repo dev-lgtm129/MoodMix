@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="Moodmix/assets/icons/appicon.png" width="100" alt="MoodMix icon">
-
+  <img src="assets/icons/appicon.png" width="100" alt="MoodMix icon">
+  
   # MoodMix
 
   *Playlists that match your mood.*
