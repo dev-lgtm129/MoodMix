@@ -87,11 +87,29 @@ THEME_MIDNIGHT = {
     "mood_active_bg": "#242424",
 }
 
+# Theme 5: Soft Pastel (Modern Muted Tones)
+THEME_MATCHA_LIGHT = {
+    "name": "Matcha Light",
+    "bg": "#f4f1ea",
+    "surface": "#eae4da",
+    "surface_variant": "#ded6c9",
+    "text_primary": "#2d3336",
+    "text_muted": "#6e777b",
+    "accent": "#738a7c",
+    "accent_secondary": "#8c7a6b",
+    "border": "#d2c7b7",
+    "gradient_start": "#e6dec8",
+    "gradient_end": "#f4f1ea",
+    "mood_active_bg": "#d8cca6",
+}
+
 # List of all available themes. The theme toggle button cycles through this list in order.
 THEMES = [
     THEME_DARK_CHOCOLATE,
     THEME_WHITE_CHOCOLATE,
     THEME_MATCHA,
     THEME_MIDNIGHT,
+    THEME_MATCHA_LIGHT,
 ]
+
 
